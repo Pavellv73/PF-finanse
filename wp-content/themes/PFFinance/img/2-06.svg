@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="service-refinance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="service-refinance-desktop" transform="translate(-974.000000, -1610.000000)" stroke-width="2" stroke="#2D2D2D">
+            <g id="Оцените-преимущества" transform="translate(95.000000, 1383.000000)">
+                <g id="06" transform="translate(860.000000, 208.000000)">
+                    <g id="icon" transform="translate(20.000000, 20.000000)">
+                        <g>
+                            <circle cx="20" cy="20" r="20"></circle>
+                            <path d="M28.5714286,26.9203425 L28.5714286,29.1418571 C28.5714286,30.0891833 27.8089946,30.8571429 26.8593713,30.8571429 L11.9977716,30.8571429 C11.0522284,30.8571429 10.2857143,30.0904168 10.2857143,29.1479483 L10.2857143,18.8520517 L10.2857143,18.8520517 C10.2857143,17.9080896 11.0481483,17.1428571 11.9977716,17.1428571 L26.8593713,17.1428571 C27.8049144,17.1428571 28.5714286,17.9137121 28.5714286,18.8594153 L28.5714286,21.1904839" id="Rectangle-24"></path>
+                            <rect id="Rectangle-24-Copy" x="22.8571429" y="21.1428571" width="6.85714286" height="5.71428571" rx="1"></rect>
+                            <g id="Group" transform="translate(12.000000, 10.285714)">
+                                <path d="M6.77361143,6.88220686 C7.52961448,6.15451432 8,5.13218937 8,4 C8,1.790861 6.209139,0 4,0 C1.790861,0 0,1.790861 0,4 C0,5.12486104 0.464315889,6.1412753 1.21174436,6.86803946" id="Oval-7"></path>
+                            </g>
+                            <g id="Group-Copy-2" transform="translate(18.285714, 5.857143)">
+                                <path d="M1.73540353,7.29766452 C2.3792796,7.74067747 3.15935579,8 4,8 L4,8 C6.209139,8 8,6.209139 8,4 C8,1.790861 6.209139,0 4,0 C1.790861,0 0,1.790861 0,4" id="Oval-7"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="service-refinance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="service-refinance-desktop" transform="translate(-974.000000, -1488.000000)" stroke="#2D2D2D" stroke-width="2">
+            <g id="Оцените-преимущества" transform="translate(95.000000, 1383.000000)">
+                <g id="03" transform="translate(860.000000, 86.000000)">
+                    <g id="icon" transform="translate(20.000000, 20.000000)">
+                        <circle cx="20" cy="20" r="20"></circle>
+                        <path d="M24.0231028,32 L24.0231028,21.1735902 L27.6080142,21.2024942 C28.7130195,21.2114036 29.6088033,22.1099779 29.6088033,23.2117301 L29.6088033,24.3427432 C29.6088033,25.4435042 28.7092819,26.337893 27.6174545,26.3403759 L22.3911967,26.3522613" id="Path-27" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M22.3911967,30 L27.8044016,30" id="Path-28" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M15.3546163,8.60097493 L11.7738666,8.60097493 C10.6701441,8.60097493 9.77540024,9.4980138 9.77540024,10.5958867 L9.77540024,11.3752038 C9.77540024,12.4769631 10.6668822,13.3701155 11.7783762,13.3701155 L13.9945714,13.3701155 C15.1007845,13.3701155 15.9975474,14.2572425 15.9975474,15.3653146 L15.9975474,16.2116254 C15.9975474,17.3135435 15.0982751,18.2068245 14.0006348,18.2068245 L10.5516915,18.2068245" id="Path-33" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M13,7 L13,19.8077995" id="Path-34" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M11,29.229014 L30.0918831,10.137131" id="Path-35" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

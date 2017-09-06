@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="service-refinance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="service-refinance-desktop" transform="translate(-739.000000, -529.000000)" stroke-width="1.2" stroke="#2D2D2D">
+            <g id="MAIN" transform="translate(95.000000, 140.000000)">
+                <g id="Преимущества" transform="translate(0.000000, 390.000000)">
+                    <g id="03" transform="translate(645.000000, 0.000000)">
+                        <g id="icon">
+                            <circle cx="35" cy="35" r="35"></circle>
+                            <g id="Group" transform="translate(27.000000, 28.000000)">
+                                <circle id="Oval-7" cx="14" cy="14" r="14"></circle>
+                                <path d="M12.0137497,20.599739 L12.0137497,8 L15.9032495,8.02957613 C17.5618588,8.04218835 18.9064273,9.40378609 18.9064273,11.0475623 L18.9064273,11.0126676 C18.9064273,12.6668431 17.5537327,14.0107186 15.9159393,14.0142313 L10,14.0269199" id="Path-27" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M9.96475668,17.9048002 L16.9647567,17.9048002" id="Path-28" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                            <g id="Group-Copy" transform="translate(14.000000, 15.000000)">
+                                <path d="M27.9738933,13.1379486 C27.5285972,5.80744916 21.4424998,0 14,0 C6.2680135,0 0,6.2680135 0,14 C0,21.4033862 5.74656812,27.4645895 13.0225003,27.9664058" id="Oval-7"></path>
+                                <path d="M18.0303091,9 L12.0056714,9 C10.8979697,9 10,9.89990175 10,11.003864 L10,12.0297077 C10,13.1364112 10.9037276,14.0335717 12.0083821,14.0335717 L15.8697997,14.0335717 C16.9789985,14.0335717 17.8781818,14.9352017 17.8781818,16.0331738 M15.4238686,18.9673882 L10.1649869,18.9673882" id="Path-29" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M14,7 L14,21" id="Path-30" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

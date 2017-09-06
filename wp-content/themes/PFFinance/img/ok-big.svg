@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="service-credit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="service-credit-2-desktop" transform="translate(-937.000000, -221.000000)" stroke="#80C453" stroke-width="1.2">
+            <g id="Узнайте-ваш-ежемесячный-платёж-и-сумму-экономии" transform="translate(0.000000, 100.000000)">
+                <g id="table-2" transform="translate(918.000000, 86.000000)">
+                    <g id="icon" transform="translate(20.000000, 36.000000)">
+                        <circle id="Oval-2" cx="35" cy="35" r="35"></circle>
+                        <polyline id="Path-4-Copy" stroke-linecap="round" stroke-linejoin="round" transform="translate(36.924042, 36.787245) scale(-1, 1) translate(-36.924042, -36.787245) " points="22.703593 25.3508783 41.2513518 48.2236111 51.1444916 39.8245574"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
