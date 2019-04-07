@@ -1,0 +1,231 @@
+.refinans-block5
+  width 100%
+  height auto
+  padding-top 50px
+  padding-bottom 50px
+  background-color #f8f8f8
+  position relative
+
+  .rb5-content
+    width 100%
+    height auto
+    flex-flow column
+
+    .rb5-head
+      width 100%
+      height auto
+
+      h2
+        color #2d2d2d
+        font-family "DINPro"
+        font-size 26px
+        font-weight 300
+        line-height 33px
+        text-align center
+        margin-bottom 20px
+        @media (min-width 768px)
+          font-size 36px
+          font-weight 300
+          line-height 46px
+
+
+    .diagram-position
+      display flex
+      flex-flow row
+      align-items flex-start
+      justify-content space-around
+      max-width 460px
+      margin 0 auto
+      position relative
+      @media (min-width 768px)
+        max-width 1112px
+        margin 0
+
+
+      .nombers
+        width 15%
+        height auto
+        display flex
+        flex-flow column
+        justify-content center
+        align-items center
+        @media (min-width 768px)
+          position absolute
+          top 0
+          left 42%
+
+        .nomber
+          width 40px
+          height 40px
+          border 2px solid #80c453
+          border-radius 100%
+          background-color transparent
+          display flex
+          justify-content center
+          align-items center
+
+          p
+            color #80c453
+            font-family "DINPro"
+            font-size 20px
+            font-weight 400
+            line-height 23px
+            margin 0 auto
+
+        .line
+          width 2px
+          height 127px
+          background-color #cccccc
+
+      .diagram
+        width 75%
+        height auto
+        display flex
+        flex-flow column
+        justify-content center
+        align-items center
+        @media (min-width 768px)
+          width 100%
+
+        .diagram-blocks
+          width auto
+          margin 0 auto
+          &:nth-child(even)
+            flex-flow row-reverse
+
+          @media (min-width 768px)
+            width 100%
+            display flex
+            flex-flow row
+            justify-content space-between
+            &:nth-child(even)
+              .diagram-img
+                display flex
+                justify-content flex-start
+
+              .diagram-text
+                h3
+                  text-align right
+                p
+                  text-align right
+
+          @media (min-width 1280px)
+            justify-content space-around
+
+          .diagram-img
+            display none
+            @media (min-width 768px)
+              display flex
+              justify-content flex-end
+              width 296px
+              align-items flex-start
+              align-content center
+            @media (min-width 1280px)
+              width 410px
+
+            img
+              width auto
+              height auto
+
+
+
+          .diagram-text
+            width auto
+            height auto
+            padding-top 9px
+            padding-bottom 30px
+            @media (min-width 1280px)
+              width 410px
+
+            h3
+              width 100%
+              color #2d2d2d
+              font-family "DINPro"
+              font-size 18px
+              font-weight 400
+              line-height 23px
+              margin-bottom 20px
+
+            p
+              height 90px
+              color #2d2d2d
+              font-family "DINPro"
+              font-size 14px
+              font-weight 400
+              line-height 18px
+              @media (min-width 768px)
+                max-width 296px
+              @media (min-width 1280px)
+                max-width 490px
+            a
+              color #2bacfe
+              font-family "DINPro"
+              font-size 14px
+              font-weight 500
+              line-height 15px
+              border-bottom 1px dashed transparent
+              &:hover
+                font-size 14px
+                font-weight 500
+                line-height 15px
+                border-bottom 1px dashed #2bacfe
+              &:active
+                color #579dca
+                border-bottom 1px dashed #579dca
+
+
+div.hiddensection
+  width auto
+  height auto
+  display none
+  position fixed
+  bottom 0
+  right 0
+  top 0
+  left 0
+  background-image linear-gradient(180deg, rgba(22, 79, 89, 0.8) 0%, rgba(0, 26, 72, 0.8) 100%)
+  z-index 999
+
+
+div#popup
+  padding 20px
+  width auto
+  max-width 100%
+
+
+div.thnx
+  width 605px
+  height auto
+  background-color f9f9f9
+  display flex
+  flex-direction column
+  justify-content center
+  align-items center
+  box-sizing border-box
+  padding 30px 20px
+  text-align center
+  margin 0 auto
+
+  @media (min-width: 768px)
+    div.thnx
+      min-width 400px
+
+
+  p
+    color #2d2d2d
+    font-family "DINPro"
+    font-size 14px
+    font-weight 400
+    line-height 18px
+    margin-bottom 10px
+    @media (min-width 768px)
+      font-size 18px
+      font-weight 400
+      line-height 20px
+      max-width 296px
+    @media (min-width 1280px)
+      max-width 490px
+
+
+
+

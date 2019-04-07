@@ -1,0 +1,136 @@
+.federal-sec4
+  width 100%
+  height auto
+
+  .fs4-content
+    width 100%
+    height auto
+    display flex
+    display -webkit-flex
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 50px
+    padding-bottom 50px
+
+    .fs4-head
+      width 100%
+      height auto
+      margin-bottom 30px
+
+
+      h2
+        color #2d2d2d
+        font-family "DINPro"
+        font-size 26px
+        font-weight 300
+        line-height 33px
+        text-align center
+        padding-bottom 18px
+        margin 0 auto
+        @media (min-width 768px)
+          width 668px
+          font-size 36px
+          font-weight 300
+          line-height 46px
+          margin-bottom 30px
+        @media (min-width 1280px)
+          width 790px
+
+      p
+        font-family "DINPro"
+        font-size 18px
+        line-height 23px
+        color #2d2d2d
+        font-weight 400
+        text-align center
+        margin 0 auto
+        @media (min-width 768px)
+          width 668px
+          font-size 20px
+          line-height 26px
+
+        span
+          color #ea5d72
+          font-weight 500
+
+    .statistic
+      width 100%
+      height auto
+
+      background-color #f8f8f8
+      padding-top 20px
+      padding-bottom 20px
+      padding-left 20px
+      padding-right 20px
+      box-sizing border-box
+      @media (min-width 768px)
+        padding-left 67px
+        padding-right 67px
+      @media (min-width 1280px)
+        padding-left 50px
+        padding-right 50px
+
+      .statistic-content
+        display flex
+        display -webkit-flex
+        flex-direction column
+        justify-content center
+        align-items center
+        @media (min-width 768px)
+          flex-flow row wrap
+          justify-content space-around
+        @media (min-width 1280px)
+          justify-content space-between
+
+
+        .statistic-block
+          width 175px
+          height 175px
+          border 1px solid #f2f2f2
+          background-image linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 50%, rgba(248,248,248,1) 100%);
+          border-radius 100%
+          display none
+          justify-content center
+          align-items center
+          flex-direction column
+          margin-bottom 20px
+          transition all ease-out 0.3s
+          @media (min-width 768px)
+            display flex
+          @media (min-width 1280px)
+            margin 10px 5px
+          &:nth-child(1),&:nth-child(2),&:nth-child(3)
+            display flex
+
+          h3
+            color #2d2d2d
+            font-family "DINPro"
+            font-size 20px
+            font-weight 400
+            line-height 26px
+            text-align center
+
+          p
+            color #2d2d2d
+            font-family "DINPro"
+            font-size 16px
+            font-weight 300
+            line-height 21px
+
+          span
+            color #ea5d72
+            font-family "DINPro"
+            font-size 20px
+            font-weight 500
+            line-height 26px
+
+        .statistic-active
+          display flex
+          display -webkit-flex
+          transition all ease-out 0.3s
+
+        .statistic-visible
+          @media (min-width 768px)
+            display none
+

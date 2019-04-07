@@ -1,0 +1,10 @@
+section.question.cnt
+    div.q-bg
+    div.question-content.row
+        div.question-head
+            h2 У вас есть финансовые вопросы?
+            p Просто оставьте свои контактные данные и получите бесплатную консультацию по вашему вопросу.
+
+        form(action="mailer.php" method="post")
+            input.inp(placeholder="Ваш контактный телефон" name="phone" required)
+            button.button-blue(type="submit") Получить консультацию

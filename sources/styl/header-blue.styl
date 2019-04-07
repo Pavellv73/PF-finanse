@@ -1,0 +1,179 @@
+.header-blue
+  width 100%
+  height auto
+  padding-top 10px!important
+  padding-bottom 10px!important
+  background-color #316081
+  position fixed
+  top 0
+  z-index 100
+  transition all ease 0.5s
+
+  .headerblue-content
+    display flex
+    flex-direction row
+    justify-content space-between
+    align-items center
+
+    .logo
+      width auto
+      height auto
+
+      .big-logo
+        display none
+
+    .menu-container
+      display none
+
+    .contact-hab
+      width auto
+      height auto
+      display flex
+      flex-direction row
+      justify-content flex-end
+      align-items center
+
+      .contacts
+        text-align end
+        width auto
+        display flex
+        flex-flow column wrap
+        align-content flex-start
+        justify-content center
+
+        .num
+          height auto
+          color #ffffff
+          font-family "DINPro"
+          font-size 16px
+          font-weight 500
+          line-height 21px
+          margin-right 20px
+
+      .burger
+        width 22px
+        height 16px
+        display block
+        cursor pointer
+        z-index 2
+
+        .block1, .block3
+          width 22px
+          height 2px
+          background-color  #FFFFFF
+          transition all 0.5s
+
+        .block2
+          width 20px
+          height 2px
+          background-color  #FFFFFF
+          margin 5px 0
+          transition all 0.5s
+
+        .block1-click
+          transform rotate(45deg)
+          transition all 0.5s
+        .block2-click
+          display none
+          overflow hidden
+          transition all 0.5s
+        .block3-click
+          transform rotate(-45deg)
+          transition all 0.5s
+
+      .habmenu
+        display none
+        flex-direction column
+        justify-content center
+        align-items center
+        position absolute
+        top 600px
+        right 0
+        left 0
+        bottom 0
+        margin auto
+        overflow auto
+        width 280px
+        height 380px
+        box-shadow 0 2px 30px rgba(0, 0, 0, 0.09)
+        border 1px solid #f2f2f2
+        background-color #ffffff
+        z-index 1
+
+        ul
+          display flex
+          justify-content center
+          flex-direction column
+          align-items center
+          width 100%
+          height auto
+          margin-top 50px
+
+          li
+            margin 15px 0
+
+            a
+              color #2d2d2d
+              font-family "DINPro"
+              font-size 15px
+              font-weight 400
+              line-height 20px
+              margin-bottom 40px
+              outline none
+              &:hover
+                border-bottom 1px dashed #2d2d2d
+              &:active
+                color #4288b5
+
+
+@media(min-width: 768px)
+  .header-blue
+    .headerblue-content
+      .contact-hab
+        .contacts
+          .num
+            font-size 20px
+            font-weight 500
+            line-height 26px
+
+
+@media(min-width: 1280px)
+  .header-blue
+    .headerblue-content
+      .logo
+        .min-logo
+          display none
+        .big-logo
+          display block
+
+      .menu-container
+        display block
+        width 50%
+        height auto
+        ul
+          display flex
+          flex-direction row
+          justify-content space-between
+          align-items center
+          li
+            a
+              color #b6c6d2
+              font-family "DINPro"
+              font-size 15px
+              font-weight 400
+              line-height 20px
+              transition all 0.2s
+              &:hover
+                color #FFFFFF
+                border-bottom 1px dashed #FFFFFF
+                transition all 0.2s
+
+              &:active
+                color #FFFFFF
+
+      .contact-hab
+        .burger
+          display none
+
+
+

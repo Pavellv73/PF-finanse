@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+    head
+        include head
+    body
+        include header-blue
+
+        div.error-block
+            div.error-content
+                div.error-head
+                    img(src="img/error-big.svg")
+                    p По вашему запросу ничего не найдено
+
+                div.error-text
+                    h2 Свяжитесь со специалистом
+
+                    form(method="post" action="mailer.php")
+                        textarea(name="text" placeholder="Ваш запрос...")
+                        input(name="phone" placeholder="Ваш контактный телефон")
+                        div.action-block
+                            button.button-blue Связаться
+                            div.error-but
+                                p Или вернитесь на
+                                    a(href="index.php")  Главную
+                                img(src="img/next.png")
+
+
+        include footer
+
+

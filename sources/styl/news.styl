@@ -1,0 +1,264 @@
+.news
+  width 100%
+  height auto
+  padding-top 50px
+  padding-bottom 50px
+  @media (min-width 1280px)
+    padding-top 50px
+    padding-bottom 100px
+
+  .news-head
+    width 100%
+    height auto
+
+    h2
+      color #2d2d2d
+      font-family "DINPro"
+      font-size 26px
+      font-weight 300
+      line-height 33px
+      text-align center
+      margin-bottom 20px
+
+      @media (min-width 768px)
+        font-size 36px
+        font-weight 300
+        line-height 46px
+        margin-bottom 50px
+
+  .news-content
+    width 100%
+    height auto
+    display flex
+    display -webkit-flex !important
+    flex-flow row wrap
+    justify-content space-between
+    align-items center
+    margin 0 auto
+
+    .news-block
+      &:nth-child(6n-5), &:nth-child(6n-1)
+        width 100%
+        height auto
+        padding-bottom 20px
+        display flex
+        flex-direction column
+        justify-content center
+        align-items center
+        border 1px solid #f2f2f2
+        position relative
+        margin-bottom 20px
+        &:hover
+          .news-img
+            height 160px
+          .news-but
+            img
+              right -30px
+        @media (min-width 768px)
+          width 100%
+        @media (min-width 1280px)
+          width 50%
+          height 420px
+          margin-bottom 30px
+          justify-content flex-start
+
+        .news-img
+          width 100%
+          height 170px
+          overflow hidden
+          display flex
+          justify-content center
+          align-items center
+          position relative
+          transition all 0.3s ease-out
+          background-image url("img/new-img1.png")
+          background-size cover
+          background-position center center
+          background-repeat no-repeat
+          @media (min-width 768px)
+              width 100%
+              height 170px
+
+        .news-text
+          width 100%
+          height auto
+          padding 20px
+          box-sizing border-box
+
+          .data
+            color #2d2d2d
+            font-family "DINPro"
+            font-size 14px
+            font-weight 400
+            line-height 18px
+            margin-bottom 18px
+
+          h3
+            color #2d2d2d
+            font-family "DINPro"
+            font-size 20px
+            font-weight 300
+            line-height 26px
+
+        .news-but
+          width 122px
+          height auto
+          display flex
+          flex-direction row
+          justify-content flex-start
+          align-items flex-end
+          position absolute
+          bottom 20px
+          left 20px
+
+          a
+            color #2bacfe
+            font-family "DINPro"
+            font-size 14px
+            font-weight 500
+            line-height 16px
+            margin-right 20px
+            cursor pointer
+            border-bottom  1px dashed transparent
+            transition all 0.2s
+            &:hover
+              border-bottom  1px dashed #2bacfe
+              color #2bacfe
+            &:active
+              border-bottom  1px dashed #579dca
+              color #579dca
+
+          img
+            width auto
+            height auto
+            transition all 0.3s ease-out
+            position absolute
+            right 0
+
+
+    .news-block
+      &:nth-child(6n-4), &:nth-child(6n-3), &:nth-child(6n-2), &:nth-child(6n)
+        width 100%
+        height auto
+        padding-bottom 20px
+        display flex
+        flex-direction column
+        justify-content center
+        align-items center
+        border 1px solid #f2f2f2
+        transition all 0.3s ease-out
+        position relative
+        margin-bottom 20px
+        &:hover
+          .news-img
+            height 160px
+          .news-but
+            img
+              right -30px
+        @media (min-width 768px)
+          width 48%
+        @media (min-width 1280px)
+          width 22%
+          height 420px
+          margin-bottom 30px
+          justify-content flex-start
+
+        .news-img
+          width 100%
+          height 170px
+          overflow hidden
+          display flex
+          justify-content center
+          align-items flex-start
+          position relative
+          transition all 0.3s ease-out
+          background-image url("img/new-img1.png")
+          background-size cover
+          background-repeat no-repeat
+          background-position center center
+
+
+
+        .news-text
+          width 100%
+          height auto
+          padding 20px
+          box-sizing border-box
+
+          .data
+            color #2d2d2d
+            font-family "DINPro"
+            font-size 14px
+            font-weight 400
+            line-height 18px
+            margin-bottom 18px
+
+          h3
+            color #2d2d2d
+            font-family "DINPro"
+            font-size 20px
+            font-weight 300
+            line-height 26px
+
+        .news-but
+          width 122px
+          height auto
+          display flex
+          flex-direction row
+          justify-content flex-start
+          align-items center
+          position absolute
+          bottom 20px
+          left 20px
+
+          a
+            color #2bacfe
+            font-family "DINPro"
+            font-size 14px
+            font-weight 500
+            line-height 16px
+            margin-right 20px
+            cursor pointer
+            border-bottom  1px dashed transparent
+            transition all 0.2s
+            &:hover
+              border-bottom  1px dashed #2bacfe
+              color #2bacfe
+            &:active
+              border-bottom  1px dashed #579dca
+              color #579dca
+
+          img
+            width auto
+            height auto
+            transition all 0.3s ease-out
+            position absolute
+            right 0
+
+
+    .news-block
+      &:nth-child(6n-3),&:nth-child(6n-2),&:nth-child(6n-1),&:nth-child(6n)
+        display none
+
+    @media (min-width 768px)
+      flex-flow row
+      flex-wrap wrap
+      max-width 668px
+
+      .news-block
+        &:nth-child(6n-3)
+          display block
+
+    @media (min-width 1280px)
+      max-width 1112px
+      align-items flex-start
+      flex-wrap wrap
+
+      .news-block
+        &:nth-child(6n-3), &:nth-child(6n-2), &:nth-child(6n-1), &:nth-child(6n)
+          display block
+
+
+      .news-link
+        margin 0 auto
+

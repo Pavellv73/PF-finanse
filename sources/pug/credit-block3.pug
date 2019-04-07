@@ -1,0 +1,79 @@
+section.credit-block3.cnt
+    div.cb3-content.row
+        div.cb3-head
+            h2 Посмотрите сколько вы переплачиваете
+
+        div.calculator
+            form.left-form(method="post" action="mailer.php")
+                p Введите ваши данные и узнайте сколько вы переплачиваете:
+                div.input-block
+                    label(for="#i1") Укажите стоимость квартиры
+                    input#i1.inp(name="value")
+                div.input-block
+                    label(for="#i2") Укажите первоначальный взнос
+                    input#i2.inp(name="contribution")
+                div.input-block
+                    label(for="#i3") Укажите процентную ставку
+                    input#i3.inp(name="rate")
+                div.input-block
+                    label(for="#i4") Укажите срок кредита
+                    input#i4.inp(name="term")
+
+                button.result-active.button-blue(type="button") Рассчитать
+
+                div.form-info
+                    p Узнайте стоимость услуги рефинансирования для вас
+                    div.form-Arrow
+                        img(src="img/next.png")
+
+
+            div.result-credit
+
+                div.table
+                    div.table-position
+                        table
+                            tr
+                                th
+                                    img(src="img/error-big.svg")
+                                    p При самостоятельном обращении в банк
+                            tr
+                                td
+                                    p Ежемесячный платёж:
+                                    span 54 332 руб.
+                            tr
+                                td
+                                    p Полные затраты с учётом %:
+                                    span 14 039 680 руб.
+                            tr
+                                td
+                                    p Величина переплаты
+                                    span 8 539 680 руб.
+
+                        table
+                            tr
+                                th
+                                    img(src="img/ok-big.svg")
+                                    p При обращении в ПФ Финанс
+                            tr
+                                td
+                                    p Ежемесячный платёж:
+                                    span 51 126 руб.
+                            tr
+                                td
+                                    p Полные затраты с учётом %:
+                                    span 13 270 240 руб.
+                            tr
+                                td
+                                    p Величина переплаты
+                                    span 7 770 240 руб.
+
+                    div.cash
+                        p Ваша экономия составит:
+                        p.green-text 769 440 руб.
+
+
+                form(method="post" action="mailer.php")
+                    div.input-block
+                        label(for="#i4") Ваш контактный телефон
+                        input#i4.inp(name="phone")
+                    button.button-blue(type="submit") Хочу выгодную ипотеку!

@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+    head
+        include head
+    body
+        include header-blue
+
+        div.thanx-block
+            div.thanx-content
+                div.thanx-head
+                    h1 Благодарим за обращение в «ПФ Финанс»!
+                    p Скоро с вами свяжется наш специалист.
+
+                div.thanx-text
+                    h2 Получите от 3 000 до 10 000 рублей
+
+                    p За то, что поможете своему близкому, другу или знакомому снизить ставку по ипотечному кредитованию или решить другие вопросы с ипотекой.
+
+                    p Просто порекомендуйте нашу компанию ПФ Финанс, как профессионалов в финансовых вопросах по улучшению условий ипотечного кредитования. Нажмите на кнопку соц. сети, которой вы пользуетесь:
+
+                    div.soc-icon
+                        a(onclick="Share.vkontakte('URL','TITLE','IMG_PATH','DESC')")
+                            img(src="img/vk-icon.svg")
+                        a(onclick="Share.facebook('URL','TITLE','IMG_PATH','DESC')")
+                            img(src="img/fb-icon.svg")
+
+        include footer
+
+

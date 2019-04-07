@@ -1,0 +1,55 @@
+section.refinans-block3.cnt
+    div.rb3-content.row
+        div.rb3-head
+            h2 Посмотрите сколько вы переплачиваете
+
+        div.calculator
+            form.left-form(method="post" action="mailer.php")
+                p Введите ваши данные и узнайте сколько вы переплачиваете:
+                div.input-block
+                    label(for="#i1") Укажите ваш ежемесячный платёж
+                    input#i1.inp(name="pay")
+                div.input-block
+                    label(for="#i2") В каком году заканчивается ипотека
+                    input#i2.inp(name="year")
+                div.input-block
+                    label(for="#i3") Текущий остаток основного долга
+                    input#i3.inp(name="remainder")
+
+                button.result-active.button-blue(type="button") Рассчитать
+
+                div.form-info
+                    p Узнайте стоимость услуги рефинансирования для вас
+                    div.form-Arrow
+                        img(src="img/next.png")
+
+
+            div.result-refinanse
+                p За 12 лет с 2017 по 2029 год вы можете сэкономить
+                    span  589 587 рублей
+                    |  и приобрести:
+
+                div.result-images
+                    div.result-img
+                        div.fg
+                            p Загородный домик
+                        img(src="img/result-img1.png")
+
+                    div.result-img
+                        div.fg
+                            p Роскошный отдых
+                        img(src="img/result-img2.png")
+
+                div.result-cash
+                    p С нашей услугой рефинансирования ипотеки вы можете платить всего: <br>
+                        span  11 587 руб./мес
+
+                div.overpayments
+                    p Вы переплачиваете:
+                        span  347 руб./мес
+
+                form(method="post" action="mailer.php")
+                    div.input-block
+                        label(for="#i4") Ваш контактный телефон
+                        input#i4.inp(name="phone")
+                    button.button-blue(type="submit") Получить расчёт стоимости

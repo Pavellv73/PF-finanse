@@ -1,0 +1,268 @@
+.footer
+  width 100%
+  height auto
+  padding-top 20px
+  padding-bottom 14px
+  background-color #4a4a4a
+
+  .footer-content
+    width auto
+    height auto
+    display flex
+    display -webkit-flex !important
+    flex-direction row
+    justify-content center
+    align-items center
+    margin 0 auto
+    @media (min-width 1280px)
+      justify-content space-between
+      align-items flex-start
+
+    .comp-menu
+      display none
+      @media (min-width 1280px)
+        display block
+
+      p
+        color #ffffff
+        font-family "DINPro"
+        font-size 20px
+        font-weight 400
+        line-height 26px
+
+      ul
+        flex-direction column
+        justify-content flex-start
+        align-items flex-start
+        display flex
+
+        li
+          margin 9px 0
+          a
+              color #acacac
+              font-family "DINPro"
+              font-size 14px
+              font-weight 400
+              line-height 18px
+              margin 9px 0
+              border-bottom 1px dashed #acacac
+              opacity 0.6
+              transition all 0.3s
+              &:hover
+                opacity 1.0
+
+      .ogrn, .inn
+        color #acacac
+        font-family "DINPro"
+        font-size 14px
+        font-weight 400
+        line-height 18px
+
+    .serv-menu
+      display none
+      @media (min-width 1280px)
+        display block
+
+      p
+        color #ffffff
+        font-family "DINPro"
+        font-size 20px
+        font-weight 400
+        line-height 26px
+
+      ul
+        flex-direction column
+        justify-content flex-start
+        align-items flex-start
+        display flex
+
+        li
+          margin 9px 0
+          a
+            color #acacac
+            font-family "DINPro"
+            font-size 14px
+            font-weight 400
+            line-height 18px
+            border-bottom 1px dashed #acacac
+            opacity 0.6
+            transition all 0.3s
+            &:hover
+              opacity 1.0
+
+    .pay
+      width 100%
+      height auto
+      display flex
+      flex-direction column
+      justify-content center
+      align-items center
+      @media (min-width 768px)
+        width 50%
+        align-items flex-start
+      @media (min-width 1280px)
+        width auto
+
+
+      .pay-content
+        width auto
+        height auto
+        display flex
+        flex-direction column
+        justify-content flex-start
+        align-items flex-start
+
+        h3
+          color #ffffff
+          font-family "DINPro"
+          font-size 20px
+          font-weight 400
+          line-height 26px
+
+        .card-icon
+          width auto
+          height auto
+          display flex
+          flex-direction row
+          justify-content flex-start
+          align-items flex-start
+
+          img
+            margin 18px 0
+            &:nth-child(1)
+              margin-right 18px
+
+
+        input
+          width 282px
+          height 48px
+          box-shadow inset 0 1px 2px rgba(0, 0, 0, 0.2)
+          border-radius 2px
+          border 1px solid #f2f2f2
+          background-color #ffffff
+          background-image url("img/seach-icon.png")
+          background-position right center
+          background-repeat no-repeat
+          margin-bottom 21px
+          padding-left 8px
+          padding-top 16px
+          padding-bottom 16px
+          box-sizing border-box
+          color #7a7a7a
+          font-family Roboto
+          font-size 14px
+          font-weight 300
+          font-style italic
+          line-height 16px
+
+
+        .nt-logo
+          width 100%
+          height auto
+          display flex
+          justify-content flex-end
+          @media (min-width 768px)
+            display none
+
+
+    .nav
+      ul
+        display none
+        @media (min-width 768px)
+          display flex
+          width 100%
+          height auto
+          flex-direction column
+          justify-content flex-end
+          align-items flex-end
+        @media (min-width 1280px)
+          display none
+
+        li
+          margin-bottom 20px
+
+          a
+            color #ffffff
+            font-family "DINPro"
+            font-size 20px
+            font-weight 400
+            line-height 26px
+
+.footer-end
+  width 100%
+  height auto
+  padding-top 14px
+  padding-bottom 14px
+  background-color #404040
+  position relative
+  .fe-content
+    max-width 1112px
+    display flex
+    justify-content center
+    align-items center
+    flex-flow row wrap
+    margin 0 auto
+    @media (min-width 768px)
+      justify-content space-between
+
+  p
+    color #acacac
+    font-family "DINPro"
+    font-size 12px
+    font-weight 400
+    line-height 24px
+
+  a
+    color #acacac
+    font-family "DINPro"
+    font-size 12px
+    font-weight 400
+    line-height 15px
+
+
+
+div.hiddensection
+  width auto
+  height auto
+  display none
+  position absolute
+  bottom 0
+  right 0
+  background-image linear-gradient(180deg, rgba(22, 79, 89, 0.8) 0%, rgba(0, 26, 72, 0.8) 100%)
+  z-index 999
+
+div#popup
+  padding 20px
+  width auto
+  max-width 100%
+
+div.politic
+  width 605px
+  height auto
+  background-color f9f9f9
+  display flex
+  flex-direction column
+  justify-content center
+  align-items center
+  box-sizing border-box
+  padding 30px 20px
+  text-align center
+  margin 0 auto
+  @media (min-width: 768px)
+    div.politic
+      min-width 400px
+
+  p
+    color #2d2d2d
+    font-family "DINPro"
+    font-size 14px
+    font-weight 400
+    line-height 18px
+    margin-bottom 10px
+    @media (min-width 768px)
+      font-size 18px
+      font-weight 400
+      line-height 20px
+      max-width 296px
+    @media (min-width 1280px)
+      max-width 490px
